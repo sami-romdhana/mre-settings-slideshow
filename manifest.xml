@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OfficeApp
+  xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+  xsi:type="ContentApp"
+>
+  <Id>6297fa4a-4e9d-4d7d-be2a-c3953aeda1d7</Id>
+
+  <Version>1.0.0.0</Version>
+  <ProviderName>Contoso</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="MRE : Settings in Slideshow" />
+  <Description DefaultValue="Sample add-in for testing purposes" />
+  <IconUrl DefaultValue="https://sami-romdhana.github.io/mre-settings-slideshow/assets/logo-64.png" />
+  <HighResolutionIconUrl DefaultValue="https://sami-romdhana.github.io/mre-settings-slideshow/assets/logo-128.png" />
+  <SupportUrl DefaultValue="https://support.contoso.net/" />
+
+  <Hosts>
+    <Host Name="Presentation" />
+  </Hosts>
+
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://sami-romdhana.github.io/mre-settings-slideshow/index.html" />
+    <RequestedWidth>500</RequestedWidth>
+    <RequestedHeight>300</RequestedHeight>
+  </DefaultSettings>
+
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
